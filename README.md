@@ -4,7 +4,7 @@ This project was generated with [`@osdk/create-app`](https://www.npmjs.com/packa
 
 ## Developing
 
-Run the following command or equivalent with your preferred package manager to start a local development server on `http://localhost:8080`:
+Run the following command or equivalent with your preferred package manager to start a local development server on `http://localhost:8090`:
 
 ```sh
 npm run dev
@@ -12,7 +12,7 @@ npm run dev
 
 Development configuration is stored in `.env.development`.
 
-In order to make API requests to Foundry, CORS must be configured for the stack to allow `http://localhost:8080` to load resources. If this has not been configured and you are unable to request this, you can alternatively generate your project again with `--corsProxy true` to use a proxy for API requests during local development. The configured OAuth client must also allow `http://localhost:8080/auth/callback` as a redirect URL.
+In order to make API requests to Foundry, CORS must be configured for the stack to allow `http://localhost:8090` to load resources. If this has not been configured and you are unable to request this, you can alternatively generate your project again with `--corsProxy true` to use a proxy for API requests during local development. The configured OAuth client must also allow `http://localhost:8090/auth/callback` as a redirect URL.
 
 ## Deploying
 
