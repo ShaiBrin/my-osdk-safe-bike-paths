@@ -1,0 +1,30 @@
+{
+  "name": "my-osdk-safe-bike-paths",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev -p 8090",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@safebikepathsosdk/sdk": "latest",
+    "@osdk/client": "^2.0.9",
+    "@osdk/oauth": "^1.0.0",
+    "next": "^14.2.16",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@next/env": "^14.2.16",
+    "@types/node": "^20.17.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.16",
+    "typescript": "~5.5.4",
+    "vitest": "^2.1.3"
+  }
+}
