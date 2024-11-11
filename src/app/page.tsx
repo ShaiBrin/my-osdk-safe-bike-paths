@@ -2,6 +2,7 @@
 import { $Objects, $Actions, $Queries } from "@safebikepathsosdk/sdk";
 import useAuthenticated from "@/lib/useAuthenticated";
 import css from "./page.module.css";
+import SimpleReactComp from "./components/SimpleReactComponent";
 
 function Home() {
   const authenticated = useAuthenticated();
@@ -45,6 +46,9 @@ function Home() {
             </pre>
           ))}
         </div>
+      </div>
+      <div>
+        <SimpleReactComp />
       </div>
     </div>
   );
