@@ -1,6 +1,10 @@
-# my-osdk-safe-bike-paths
+# VeloSure
 
 This project was generated with [`@osdk/create-app`](https://www.npmjs.com/package/@osdk/create-app) and demonstrates using the Ontology SDK package `@safebikepathsosdk/sdk` with React on top of Next.js. Check out the [Next.js](https://nextjs.org/docs) docs for further configuration.
+
+
+## Video Demo
+[VeloSure Demo](https://youtu.be/Xqe-AljeQe8)
 
 ## Developing
 
